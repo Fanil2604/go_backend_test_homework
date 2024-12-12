@@ -1,14 +1,8 @@
-package main
+# Игнорировать файл README.md.
+README.md
 
-import (
-	"fmt"
-)
+# Игнорировать файл side.txt в директории build.
+build/side.txt
 
-func Add(a, b int) int {
-	return a + b
-}
-
-// что это такое
-func main() {
-	fmt.Println("Я домашка тест")
-}
+# Игнорировать все файлы с расширением .doc
+*.doc 
